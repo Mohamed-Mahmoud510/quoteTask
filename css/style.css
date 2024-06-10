@@ -1,0 +1,17 @@
+:root {
+   --but-padding : 2rem 5rem;  
+}
+h1 {
+    font-size: 60px;
+}
+
+.btn-custom {
+    padding : var(--but-padding) ;
+    background-color: blue;
+    color: white;
+    transition: all 0.3s;
+}
+.btn-custom:hover {
+    background-color: green;
+
+}
